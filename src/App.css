@@ -1,0 +1,50 @@
+body {
+    background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=5c7c9b3fd2&attid=0.1&permmsgid=msg-a:r-3386747901799446862&th=18b630aa16419bfd&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ90FaSAkWb44MyGs7_p3IkqItWrWfKnoto0wCOPrriGcLHqC5poovb3TkNLnWj_uz8V3FMxjXY2B5HJaAgWpTyoN3_Rx4Gjl0CvaeakXxkI5RAn7hzGStNIWTI&disp=emb&realattid=18b630a71cb207cf5f01);
+  
+    height: 100%;
+
+  /* Center the image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   }
+
+  /*style card*/
+  .Card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    background-color: #fff; 
+    width: 350px; 
+    text-align: center;
+  }
+  /*style image*/
+  .Img {
+    width: 100%;
+    height: 300px; 
+    object-fit: cover; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .titre{
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+
+  }
+  /*name style*/
+  .Title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px 0;
+    color: #333; 
+    font-family: 'Roboto', sans-serif;
+  }
+  /*description + price style*/
+  .Text {
+    font-size: 18px;
+    margin: 15px;
+    color: #555; 
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
